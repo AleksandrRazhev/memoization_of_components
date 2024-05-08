@@ -1,0 +1,17 @@
+.add_user {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.add_user > *:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+.numberLabel {
+  display: flex;
+  input {
+    width: 2rem;
+  }
+}

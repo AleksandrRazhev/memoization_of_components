@@ -1,0 +1,6 @@
+.user {
+}
+
+.user > *:not(:last-child) {
+  margin-right: 1rem;
+}
